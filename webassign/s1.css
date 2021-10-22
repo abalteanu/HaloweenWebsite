@@ -1,0 +1,17 @@
+body {
+    background-coor: cadetblue;
+    font-size:30px;
+}
+
+.a {
+    color:purple;
+}
+
+.q {
+    color: orange;
+}
+
+img {
+    border: solid 7 px gold;
+    border-radius: 5%;
+}
