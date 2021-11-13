@@ -1,17 +1,38 @@
 body {
-    background-image: url(images/spooky_Background.png);
-    font-size:30px;
+    background: black;
+    
+    font-family: 'Yuji Syuku', serif;
+    font-size: 60px;
+    color: aliceblue
+      
 }
 
-.a {
-    color:purple;
+p {
+    font-size:24px;
 }
 
-.q {
-    color: orange;
+h1 {
+    text-shadow: 0 0 3px #FFFFFF, 0 0 5px #0000FF;
+    font-size: 70px;
+}
+
+h2 {
+    text-shadow: 0 0 10px #FF0000, 0 0 5px #0000FF;
+}
+background-image {
+  filter: brightness(50%);
 }
 
 img {
     border: solid 7 px gold;
-    border-radius: 5%;
+    /*filter: blur(4px);*/
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+td {
+  width: 25% ;
 }
